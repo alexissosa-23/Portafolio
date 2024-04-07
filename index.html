@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portafolio personal de [Tu Nombre]">
+    <title>Portafolio</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Alexis Sosa</h1>
+        <img src="perfil.png" alt="perfil">
+        <nav>
+            <ul>
+                <table>
+                    <tr>
+                        <td><a href="https://github.com/alexissosa-23"><img src="github.png" alt="Icono GitHub"
+                                    width="30" height="30"> GitHub</a></td>
+                        <td><a href="https://linkedin.com/in/tu_perfil_de_linkedin"><img src="linkedin.png"
+                                    alt="Icono LinkedIn" width="30" height="30"> LinkedIn</a></td>
+                        <td><a href="mailto:tucorreo@example.com"><img src="carta.png" alt="Icono Correo" width="30"
+                                    height="30"> Correo</a></td>
+                    </tr>
+                </table>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="about">
+        <h2>Tecnologías</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                    <th>Conceptos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <div id="socialSnakes">
+        <h2>Social Snakes</h2>
+        <img src="menorMayor.jpeg" alt="menorMayor" width="100" height="100" style="border: 1px solid black;">
+    </div>
+
+    <div>
+        <p>Social Media App in Python - <a href="code_url">code</a> | <a href="code_url">deployed</a></p>
+    </div>
+
+
+    <footer>
+        <h2>Contáctame</h2>
+        <form action="#" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Enviar mensaje">
+        </form>
+    </footer>
+</body>
+
+</html>
